@@ -33,3 +33,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="merlin-user 11 RP1A.200720.011 V12.5.4.0.RJOMIXM release-keys"
 
 BUILD_FINGERPRINT := Redmi/merlin/merlin:11/RP1A.200720.011/V12.5.4.0.RJOMIXM:user/release-keys
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
